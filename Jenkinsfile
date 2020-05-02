@@ -11,8 +11,7 @@ node () {
  	
 withEnv(["JAVA_HOME=${ tool '"+JDK+"' }", "PATH=${env.JAVA_HOME}/bin"]) { 
 
-// Unable to convert a build step referring to "hudson.plugins.sonar.SonarRunnerBuilder". Please verify and convert manually if required.
-// Unable to convert a build step referring to "hudson.plugins.groovy.Groovy". Please verify and convert manually if required. 
+// Unable to convert a build step referring to "hudson.plugins.sonar.SonarRunnerBuilder". Please verify and convert manually if required. 
 	}
 }
 }
